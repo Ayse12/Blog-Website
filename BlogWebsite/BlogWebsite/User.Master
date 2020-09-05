@@ -15,7 +15,6 @@
 
         .margin {
             margin-left: 150px;
-
         }
 
         .auto-style1 {
@@ -25,10 +24,10 @@
 
         .auto-style2 {
             margin-left: 150px;
-
             height: 718px;
             width: 1199px;
         }
+
         .auto-style3 {
             height: 250px;
             width: 250px;
@@ -36,25 +35,50 @@
             top: 502px;
             left: 1102px;
         }
+
+        .tableMenu {
+            height: 20px;
+            width: 1200px;
+        }
+
+        .menutd {
+            text-align: center;
+        }
+        .auto-style4 {
+            text-align: center;
+            background-color: #FFFFFF;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server" class="auto-style1">
-        <div style="height: 150px; width: 1200px; background-color: #66FFFF;" class="margin"></div>
-        <div style="height: 20px; width: 1200px;" class="margin"></div>
-        <div style="height: 20px; width: 1200px; background-color: #CCFFFF;" class="margin"></div>
+        <div style="height: 150px; width: 1200px; background-color: #8b658b" class="margin"></div>
+        <div style="height: 20px; width: 1200px; background-color: #FFFFFF;" class="margin"></div>
+
+        <div style="height: 25px; width: 1200px; background-color: #8b658b;" class="margin">
+            <table class="tableMenu">
+                <tr>
+                    <td class="auto-style4"><a href="HomePage.aspx">Homepage</a></td>
+                    <td class="auto-style4"><a href="ChoiceOfAuthor.aspx">Author's Choice</a></td>
+                    <td class="auto-style4"><a href="SuggestTopic.aspx">Suggest Topic</a></td>
+                    <td class="auto-style4"><a href="AboutUs.aspx">About Us</a></td>
+                    <td class="auto-style4"><a href="Contact.aspx">Contact</a></td>
+                </tr>
+
+            </table>
+        </div>
         <div style="height: 20px; width: 1200px; background-color: #FFFFFF;" class="margin"></div>
 
         <div class="auto-style2">
 
-            <div class="ic_bolme" style="height: 250px; background-color: #FFCCFF; width: 250px; margin-bottom: 20px;"></div>
-            <div class="ic_bolme" style="height: 700px; width: 600px; margin-left: 40px; background-color: #CCCCFF;">
+            <div class="ic_bolme" style="height: 250px; background-color: #8b658b; width: 250px; margin-bottom: 20px;"></div>
+            <div class="ic_bolme" style="height: 700px; width: 600px; margin-left: 40px; background-color: #8b658b;">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-            <div class="ic_bolme" style="height: 250px; width: 250px; margin-left: 50px; background-color: #FFCCFF; margin-bottom:15px;"></div>
-            <div style="background-color: #FFCCFF; border: #CCC solid 1px;   margin-bottom:15px; margin-right: 20px; " class="auto-style3"></div>
-            <div style=" background-color: #FFCCFF; height: 250px; width: 250px; border: #CCC solid 1px;  position:absolute; left: 160px; top:492px;"></div>
+            <div class="ic_bolme" style="height: 250px; width: 250px; margin-left: 50px; background-color: #8b658b; margin-bottom: 15px;"></div>
+            <div style="background-color: #8b658b; border: #CCC solid 1px; margin-bottom: 15px; margin-right: 20px;" class="auto-style3"></div>
+            <div style="background-color: #8b658b; height: 250px; width: 250px; border: #CCC solid 1px; position: absolute; left: 160px; top: 492px;"></div>
         </div>
 
 
