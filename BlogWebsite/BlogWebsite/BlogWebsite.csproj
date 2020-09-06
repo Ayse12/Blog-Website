@@ -82,6 +82,7 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\SqlConnections.cs" />
     <Compile Include="ChoiceOfAuthor.aspx.cs">
       <DependentUpon>ChoiceOfAuthor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
