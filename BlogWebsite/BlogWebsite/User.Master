@@ -48,6 +48,11 @@
             text-align: center;
             background-color: #FFFFFF;
         }
+        .auto-style5 {
+            font-size: x-large;
+            color: #FF6699;
+        }
+
     </style>
 </head>
 <body>
@@ -78,7 +83,17 @@
             </div>
             <div class="ic_bolme" style="height: 250px; width: 250px; margin-left: 50px; background-color: #8b658b; margin-bottom: 15px;"></div>
             <div style="background-color: #8b658b; border: #CCC solid 1px; margin-bottom: 15px; margin-right: 20px;" class="auto-style3"></div>
-            <div style="background-color: #8b658b; height: 250px; width: 250px; border: #CCC solid 1px; position: absolute; left: 160px; top: 492px;"></div>
+            <div style="background-color: #8b658b; height: auto; width: 250px; border: #CCC solid 1px; position: absolute; left: 160px; top: 492px;">
+                <strong><span class="auto-style5">CATEGORİES</span></strong><br />
+                <br />
+                <asp:DataList ID="DataList1" runat="server">
+                    <ItemTemplate>
+                        <asp:Label ID="Label1" runat="server" Text='<%# Eval("CategoryName") %>' BorderColor="#CC66FF" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Size="15pt" ForeColor="#FF66CC"></asp:Label>
+                        <br />
+                        <br />
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
         </div>
 
 
