@@ -18,7 +18,7 @@
         }
 
         .auto-style1 {
-            height: 936px;
+            height: 961px;
             width: 1532px;
         }
 
@@ -44,13 +44,27 @@
         .menutd {
             text-align: center;
         }
+
         .auto-style4 {
             text-align: center;
             background-color: #FFFFFF;
         }
+
         .auto-style5 {
             font-size: x-large;
-            color: #FF6699;
+            color: #FFFFFF;
+            background-color: #9999FF;
+        }
+
+        .labelcss {
+            border: None;
+            
+            Font-Size: 15pt;
+            color: #FF66CC;
+        }
+        .auto-style6 {
+            color: #FF66CC;
+            font-size: small;
         }
 
     </style>
@@ -84,12 +98,16 @@
             <div class="ic_bolme" style="height: 250px; width: 250px; margin-left: 50px; background-color: #8b658b; margin-bottom: 15px;"></div>
             <div style="background-color: #8b658b; border: #CCC solid 1px; margin-bottom: 15px; margin-right: 20px;" class="auto-style3"></div>
             <div style="background-color: #8b658b; height: auto; width: 250px; border: #CCC solid 1px; position: absolute; left: 160px; top: 492px;">
-                <strong><span class="auto-style5">CATEGORİES</span></strong><br />
+                <div style="background-color: #8b658b; width: auto; text-align: center;"><strong><span class="auto-style5">CATEGORİES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></div>
                 <br />
-                <asp:DataList ID="DataList1" runat="server">
+                <br />
+                <asp:DataList ID="DataList1" runat="server" Width="248px">
                     <ItemTemplate>
-                        <asp:Label ID="Label1" runat="server" Text='<%# Eval("CategoryName") %>' BorderColor="#CC66FF" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Size="15pt" ForeColor="#FF66CC"></asp:Label>
-                        <br />
+                        <div style="border: thin dotted #FF99FF;">
+                            <asp:Label ID="Label1" runat="server" Font-Size="Large" Text='<%# Eval("CategoryName") %>' CssClass="labelcss"></asp:Label>
+                            &nbsp;<span class="auto-style6">( </span><asp:Label ID="Label2" runat="server" Font-Size="Medium" Text='<%# Eval("CategoryAmount") %>' CssClass="labelcss"></asp:Label>
+                            <span class="auto-style6">) </span>
+                        </div>
                         <br />
                     </ItemTemplate>
                 </asp:DataList>
