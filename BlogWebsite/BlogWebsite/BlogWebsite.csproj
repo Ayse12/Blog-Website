@@ -71,6 +71,7 @@
     <Content Include="ChoiceOfAuthor.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="image\EscapeFromPretoria.png" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="SuggestTopic.aspx" />
     <Content Include="Web.config" />
     <Content Include="HomePage.aspx" />
