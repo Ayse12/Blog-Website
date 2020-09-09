@@ -91,7 +91,7 @@
         <div class="auto-style2">
 
             <div class="ic_bolme" style="height: 250px; background-color: #8b658b; width: 250px; margin-bottom: 20px;"></div>
-            <div class="ic_bolme" style="height: 700px; width: 600px; margin-left: 40px; background-color: #8b658b;">
+            <div class="ic_bolme" style="height: auto; width: 600px; margin-left: 40px; background-color: #8b658b;">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
