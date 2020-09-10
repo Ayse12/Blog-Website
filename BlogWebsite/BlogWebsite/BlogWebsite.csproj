@@ -70,6 +70,7 @@
     <Content Include="AboutUs.aspx" />
     <Content Include="ChoiceOfAuthor.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="image\logo.png" />
     <Content Include="image\EscapeFromPretoria.png" />
     <Content Include="StyleSheet1.css" />
     <Content Include="SuggestTopic.aspx" />

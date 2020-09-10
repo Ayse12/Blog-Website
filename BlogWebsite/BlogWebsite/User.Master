@@ -65,15 +65,26 @@
             color: #FF66CC;
         }
         .auto-style6 {
-            color: #FF66CC;
+            color: #0000FF;
             font-size: small;
+        }
+
+        .auto-style7 {
+            border-style: None;
+            border-color: inherit;
+            border-width: medium;
+            Font-Size: 15pt;
+            color: #0000FF;
+        }
+        .auto-style8 {
+            background-color: #DC99FF;
         }
 
     </style>
 </head>
 <body>
     <form id="form1" runat="server" class="auto-style1">
-        <div style="height: 150px; width: 1200px; background-color: #8b658b" class="margin"></div>
+        <div style="background-position: center; height: 150px; width: 1200px; background-color: #8b658b; background-image: url('/image/logo.png'); background-repeat: no-repeat;" class="margin"></div>
         <div style="height: 20px; width: 1200px; background-color: #FFFFFF;" class="margin"></div>
 
         <div style="height: 35px; width: 1200px; background-color: #8b658b;" class="margin">
@@ -105,9 +116,9 @@
                 <br />
                 <asp:DataList ID="DataList1" runat="server" Width="248px">
                     <ItemTemplate>
-                        <div style="border: thin dotted #FF99FF;">
-                            <asp:Label ID="Label1" runat="server" Font-Size="Large" Text='<%# Eval("CategoryName") %>' CssClass="labelcss"></asp:Label>
-                            &nbsp;<span class="auto-style6">( </span><asp:Label ID="Label2" runat="server" Font-Size="Medium" Text='<%# Eval("CategoryAmount") %>' CssClass="labelcss"></asp:Label>
+                        <div style="border: thin dotted #FF99FF;" class="auto-style8">
+                            <asp:Label ID="Label1" runat="server" Font-Size="Large" Text='<%# Eval("CategoryName") %>' CssClass="auto-style7"></asp:Label>
+                            &nbsp;<span class="auto-style6">( </span><asp:Label ID="Label2" runat="server" Font-Size="Medium" Text='<%# Eval("CategoryAmount") %>' CssClass="auto-style7"></asp:Label>
                             <span class="auto-style6">) </span>
                         </div>
                         <br />
