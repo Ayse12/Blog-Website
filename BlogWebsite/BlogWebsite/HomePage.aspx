@@ -40,8 +40,9 @@
                 <table style="width: 100%;">
                     <tr>
                         <td style="text-align: center; background-color: #B987D3;"><strong>
-                            <asp:Label ID="Label3" runat="server" CssClass="title" Text='<%# Eval("Title") %>'></asp:Label>
-                        </strong></td>
+                            <a href="ArticleDetails.aspx?ID=<%#Eval("ID")  %>">
+                                <asp:Label ID="Label3" runat="server" CssClass="title" Text='<%# Eval("Title") %>'></asp:Label>
+                            </a></strong></td>
                     </tr>
                 </table>
                 <table style="width: 100%;">

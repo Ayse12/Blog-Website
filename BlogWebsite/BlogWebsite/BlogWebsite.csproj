@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="ArticleDetails.aspx" />
     <Content Include="ChoiceOfAuthor.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="image\logo.png" />
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArticleDetails.aspx.cs">
+      <DependentUpon>ArticleDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ArticleDetails.aspx.designer.cs">
+      <DependentUpon>ArticleDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChoiceOfAuthor.aspx.cs">
       <DependentUpon>ChoiceOfAuthor.aspx</DependentUpon>
