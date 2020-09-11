@@ -11,7 +11,7 @@ namespace BlogWebsite
 {
 
 
-    public partial class AboutUs
+    public partial class CategoryDetails
     {
 
         /// <summary>

@@ -74,7 +74,7 @@
                         <td>
                             <table>
                                 <tr>
-                                    <td style="text-align: left;" class="auto-style10"><span style="font-size: medium;">My Point =&gt; </span><span style="font-size: small;">10/ </span>
+                                    <td style="text-align: left;" class="auto-style10"><span style="font-size: medium;">My Point =&gt; </span><span style="font-size: small; background-color:transparent;">10/ </span>
                                         <asp:Label ID="Label6" runat="server" Text='<%# Eval("Points") %>' Font-Size="Small"></asp:Label>
                                     </td>
                                     <td style="text-align: right;" class="auto-style9"><span style="font-size: medium;">Date :</span>

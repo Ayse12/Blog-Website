@@ -69,12 +69,14 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="ArticleDetails.aspx" />
+    <Content Include="CategoryDetails.aspx" />
     <Content Include="ChoiceOfAuthor.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="image\blog.png" />
     <Content Include="image\logo.png" />
     <Content Include="image\EscapeFromPretoria.png" />
-    <Content Include="StyleSheet1.css" />
     <Content Include="SuggestTopic.aspx" />
+    <Content Include="User.css" />
     <Content Include="Web.config" />
     <Content Include="HomePage.aspx" />
   </ItemGroup>
@@ -93,6 +95,13 @@
     </Compile>
     <Compile Include="ArticleDetails.aspx.designer.cs">
       <DependentUpon>ArticleDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryDetails.aspx.cs">
+      <DependentUpon>CategoryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryDetails.aspx.designer.cs">
+      <DependentUpon>CategoryDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChoiceOfAuthor.aspx.cs">
       <DependentUpon>ChoiceOfAuthor.aspx</DependentUpon>

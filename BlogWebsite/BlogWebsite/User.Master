@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="User.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -60,10 +60,10 @@
 
         .labelcss {
             border: None;
-            
             Font-Size: 15pt;
             color: #FF66CC;
         }
+
         .auto-style6 {
             color: #0000FF;
             font-size: small;
@@ -76,10 +76,10 @@
             Font-Size: 15pt;
             color: #0000FF;
         }
+
         .auto-style8 {
             background-color: #DC99FF;
         }
-
     </style>
 </head>
 <body>
@@ -117,8 +117,11 @@
                 <asp:DataList ID="DataList1" runat="server" Width="248px">
                     <ItemTemplate>
                         <div style="border: thin dotted #FF99FF;" class="auto-style8">
-                            <asp:Label ID="Label1" runat="server" Font-Size="Large" Text='<%# Eval("CategoryName") %>' CssClass="auto-style7"></asp:Label>
-                            &nbsp;<span class="auto-style6">( </span><asp:Label ID="Label2" runat="server" Font-Size="Medium" Text='<%# Eval("CategoryAmount") %>' CssClass="auto-style7"></asp:Label>
+                            <a href="CategoryDetails.aspx?CategoryID=<%#Eval("CategoryID")%>">
+                                <asp:Label ID="Label1" runat="server" Font-Size="Large" Text='<%# Eval("CategoryName") %>' CssClass="auto-style7"></asp:Label>
+                            </a>
+                            &nbsp;<span class="auto-style6">( </span>
+                            <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text='<%# Eval("CategoryAmount") %>' CssClass="auto-style7"></asp:Label>
                             <span class="auto-style6">) </span>
                         </div>
                         <br />
