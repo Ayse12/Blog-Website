@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="SuggestTopic.aspx.cs" Inherits="BlogWebsite.SuggestTopic" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserPanel/User.Master" AutoEventWireup="true" CodeBehind="SuggestTopic.aspx.cs" Inherits="BlogWebsite.SuggestTopic" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">

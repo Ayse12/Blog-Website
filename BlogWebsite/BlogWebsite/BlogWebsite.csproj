@@ -67,82 +67,91 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutUs.aspx" />
-    <Content Include="ArticleDetails.aspx" />
-    <Content Include="CategoryDetails.aspx" />
-    <Content Include="ChoiceOfAuthor.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="UserPanel\AboutUs.aspx" />
+    <Content Include="UserPanel\ArticleDetails.aspx" />
+    <Content Include="UserPanel\CategoryDetails.aspx" />
+    <Content Include="UserPanel\ChoiceOfAuthor.aspx" />
+    <Content Include="UserPanel\Contact.aspx" />
     <Content Include="image\blog.png" />
+    <Content Include="image\login.png" />
     <Content Include="image\logo.png" />
     <Content Include="image\EscapeFromPretoria.png" />
-    <Content Include="SuggestTopic.aspx" />
-    <Content Include="User.css" />
+    <Content Include="UserPanel\SuggestTopic.aspx" />
+    <Content Include="UserPanel\User.css" />
     <Content Include="Web.config" />
-    <Content Include="HomePage.aspx" />
+    <Content Include="UserPanel\HomePage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_SqlCon.cs" />
-    <Compile Include="AboutUs.aspx.cs">
+    <Compile Include="UserPanel\AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AboutUs.aspx.designer.cs">
+    <Compile Include="UserPanel\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ArticleDetails.aspx.cs">
+    <Compile Include="AdminPanel\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel\ArticleDetails.aspx.cs">
       <DependentUpon>ArticleDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ArticleDetails.aspx.designer.cs">
+    <Compile Include="UserPanel\ArticleDetails.aspx.designer.cs">
       <DependentUpon>ArticleDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CategoryDetails.aspx.cs">
+    <Compile Include="UserPanel\CategoryDetails.aspx.cs">
       <DependentUpon>CategoryDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CategoryDetails.aspx.designer.cs">
+    <Compile Include="UserPanel\CategoryDetails.aspx.designer.cs">
       <DependentUpon>CategoryDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ChoiceOfAuthor.aspx.cs">
+    <Compile Include="UserPanel\ChoiceOfAuthor.aspx.cs">
       <DependentUpon>ChoiceOfAuthor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ChoiceOfAuthor.aspx.designer.cs">
+    <Compile Include="UserPanel\ChoiceOfAuthor.aspx.designer.cs">
       <DependentUpon>ChoiceOfAuthor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
+    <Compile Include="UserPanel\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
+    <Compile Include="UserPanel\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuggestTopic.aspx.cs">
+    <Compile Include="UserPanel\SuggestTopic.aspx.cs">
       <DependentUpon>SuggestTopic.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SuggestTopic.aspx.designer.cs">
+    <Compile Include="UserPanel\SuggestTopic.aspx.designer.cs">
       <DependentUpon>SuggestTopic.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User.Master.cs">
+    <Compile Include="UserPanel\User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User.Master.designer.cs">
+    <Compile Include="UserPanel\User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.aspx.cs">
+    <Compile Include="UserPanel\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HomePage.aspx.designer.cs">
+    <Compile Include="UserPanel\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPanel\Admin.Master" />
     <None Include="packages.config" />
-    <Content Include="User.Master" />
+    <Content Include="UserPanel\User.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
