@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="BlogWebsite.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link href="UserPanel/User.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .ic_bolme {
+            float: left;
+            border: #CCC solid 1px;
+        }
+
+        .margin {
+            margin-left: 150px;
+        }
+
+        .form {
+            height: 961px;
+            width: 1532px;
+        }
+
+        .screen {
+            margin-left: 150px;
+            height: 718px;
+            width: 1199px;
+        }
+
+        .rightDiv {
+            height: 250px;
+            width: 250px;
+            position: absolute;
+            top: 502px;
+            left: 1102px;
+        }
+
+        .rightImg {
+            margin-left: 860px;
+            height: 145px;
+            width: 168px;
+        }
+
+        .menus {
+            font-size: x-large;
+            width: auto;
+            text-align: center;
+            color: #98D9F6;
+            background-color: #007AFF;
+        }
+
+        .MenuFont {
+            color: #007AFF;
+            font-size: medium;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" class="form">
+        <div style="background-position: center; height: 150px; width: 1200px; background-color: #98D9F6; background-image: url('/image/logo.png'); background-repeat: no-repeat;" class="margin">
+            <div style="float: left;">
+                <asp:Image ID="Image1" runat="server" Height="145px" Width="168px" ImageUrl="~/image/login.png" />
+            </div>
+            <div style="text-align: left;">
+                <asp:Image ID="Image2" runat="server" CssClass="rightImg" ImageUrl="~/image/login.png" />
+            </div>
+        </div>
+        <div style="height: 20px; width: 1200px; background-color: #FFFFFF;" class="margin"></div>
+
+
+        <div class="screen">
+
+            <div class="ic_bolme" style="height: auto; background-color: #98D9F6; width: 250px; margin-bottom: 20px;">
+                <table style="width: 100%">
+                    <tr>
+                        <td class="menus"><strong>MENUS</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><a href="Categories.aspx"><strong>CATEGORİES</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>ARTICLES</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>COMMENTS</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>MESSAGE</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>AUTHOR CHOISE</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>SUGGESTION TOPIC</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>ABOUT ME</strong></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="ic_bolme" style="height: auto; width: 600px; margin-left: 40px; background-color: #98D9F6;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="ic_bolme" style="height: 250px; width: 250px; margin-left: 50px; background-color: #98D9F6; margin-bottom: 15px;"></div>
+            <div style="background-color: #98D9F6; border: #CCC solid 1px; margin-bottom: 15px; margin-right: 20px;" class="rightDiv"></div>
+        </div>
+
+
+    </form>
+</body>
+</html>
+

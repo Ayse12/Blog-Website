@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdCategoryDetails.aspx" />
+    <Content Include="AdminControls.aspx" />
+    <Content Include="Categories.aspx" />
+    <Content Include="image\delete.png" />
+    <Content Include="image\update.png" />
     <Content Include="UserPanel\AboutUs.aspx" />
     <Content Include="UserPanel\ArticleDetails.aspx" />
     <Content Include="UserPanel\CategoryDetails.aspx" />
@@ -83,19 +88,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_SqlCon.cs" />
+    <Compile Include="AdCategoryDetails.aspx.cs">
+      <DependentUpon>AdCategoryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdCategoryDetails.aspx.designer.cs">
+      <DependentUpon>AdCategoryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControls.aspx.cs">
+      <DependentUpon>AdminControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminControls.aspx.designer.cs">
+      <DependentUpon>AdminControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserPanel\AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserPanel\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\Admin.Master.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\Admin.Master.designer.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\ArticleDetails.aspx.cs">
       <DependentUpon>ArticleDetails.aspx</DependentUpon>
@@ -149,7 +174,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminPanel\Admin.Master" />
+    <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <Content Include="UserPanel\User.Master" />
     <None Include="Web.Debug.config">
@@ -158,6 +183,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminPanel\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
