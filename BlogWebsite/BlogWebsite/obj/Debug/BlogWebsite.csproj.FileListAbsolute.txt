@@ -1,5 +1,3 @@
-D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.csproj.CoreCompileInputs.cache
-D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.csprojAssemblyReference.cache
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\BlogWebsite.dll.config
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\BlogWebsite.dll
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\BlogWebsite.pdb
@@ -54,6 +52,8 @@ D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\roslyn\VBCSCompiler.exe
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\roslyn\VBCSCompiler.exe.config
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.csproj.CoreCompileInputs.cache
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.csproj.CopyComplete
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.dll
 D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.pdb
+D:\Proje\Blog-Website\BlogWebsite\BlogWebsite\obj\Debug\BlogWebsite.csprojAssemblyReference.cache

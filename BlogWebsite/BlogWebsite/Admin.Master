@@ -86,7 +86,7 @@
                         <td class="MenuFont" style="border: thin dashed #0473ED"><a href="Categories.aspx"><strong>CATEGORİES</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>ARTICLES</strong></td>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdArticles.aspx"><strong>ARTICLES</strong></a></td>
                     </tr>
                     <tr>
                         <td class="MenuFont" style="border: thin dashed #0473ED"><strong>COMMENTS</strong></td>
