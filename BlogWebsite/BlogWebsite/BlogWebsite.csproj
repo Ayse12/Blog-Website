@@ -69,9 +69,12 @@
   <ItemGroup>
     <Content Include="AdArticles.aspx" />
     <Content Include="AdCategoryDetails.aspx" />
+    <Content Include="AdComment.aspx" />
+    <Content Include="AdCommentDetails.aspx" />
     <Content Include="AdminControls.aspx" />
     <Content Include="ArticleDetails.aspx" />
     <Content Include="Categories.aspx" />
+    <Content Include="Comment.aspx" />
     <Content Include="image\delete.png" />
     <Content Include="image\update.png" />
     <Content Include="UserPanel\AboutUs.aspx" />
@@ -104,6 +107,20 @@
     <Compile Include="AdCategoryDetails.aspx.designer.cs">
       <DependentUpon>AdCategoryDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdComment.aspx.cs">
+      <DependentUpon>AdComment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdComment.aspx.designer.cs">
+      <DependentUpon>AdComment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdCommentDetails.aspx.cs">
+      <DependentUpon>AdCommentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdCommentDetails.aspx.designer.cs">
+      <DependentUpon>AdCommentDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
@@ -130,6 +147,13 @@
     </Compile>
     <Compile Include="Categories.aspx.designer.cs">
       <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comment.aspx.cs">
+      <DependentUpon>Comment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comment.aspx.designer.cs">
+      <DependentUpon>Comment.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>

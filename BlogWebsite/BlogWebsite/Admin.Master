@@ -89,7 +89,7 @@
                         <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdArticles.aspx"><strong>ARTICLES</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>COMMENTS</strong></td>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdComment.aspx"><strong>COMMENTS</strong></a></td>
                     </tr>
                     <tr>
                         <td class="MenuFont" style="border: thin dashed #0473ED"><strong>MESSAGE</strong></td>
