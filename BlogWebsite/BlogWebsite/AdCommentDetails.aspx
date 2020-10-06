@@ -48,7 +48,7 @@
         <tr>
             <td>&nbsp;</td>
             <td><strong>
-                <asp:Button ID="btnConfirm" runat="server" CssClass="fb8" Font-Size="15pt" Text="Confirm" Width="250px" />
+                <asp:Button ID="btnConfirm" runat="server" CssClass="fb8" Font-Size="15pt" Text="Confirm" Width="250px" OnClick="btnConfirm_Click" />
                 </strong></td>
         </tr>
         <tr>

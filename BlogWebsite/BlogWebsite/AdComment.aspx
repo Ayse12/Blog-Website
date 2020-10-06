@@ -77,18 +77,21 @@
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("NameSurname") %>'></asp:Label>
                         </td>
                         <td class="imagePlace">
-                            <asp:Image ID="ımgDelete" runat="server" Height="40px" ImageUrl="~/image/delete.png" Width="40px" />
-                        </td>
+                            <a href="AdCommentDetails.aspx?ID=<%# Eval("ID")%>">
+                                <asp:Image ID="ımgDelete" runat="server" Height="40px" ImageUrl="~/image/delete.png" Width="40px" />
+                            </a></td>
                         <td class="imagePlace">
+                            <a href="AdCommentDetails.aspx?ID=<%# Eval("ID")%>">
                             <asp:Image ID="ımgUpdate" runat="server" Height="40px" ImageUrl="~/image/update.png" Width="40px" />
-                        </td>
+                        </a></td>
                     </tr>
                 </table>
             </ItemTemplate>
         </asp:DataList>
     </asp:Panel>
     <asp:Panel ID="Panel5" runat="server" BorderStyle="None" CssClass="auto-style4">
-        <div style="color: #FFFFFF; background-color: #FFFFFF;">ddd
+        <div style="color: #FFFFFF; background-color: #FFFFFF;">
+            ddd
         </div>
     </asp:Panel>
     <asp:Panel ID="Panel3" runat="server" CssClass="Panel1-3">
@@ -117,7 +120,7 @@
                                 <asp:Image ID="Image4" runat="server" Height="40px" Width="40px" ImageUrl="~/image/delete.png" />
                             </a></td>
                         <td style="text-align: right;">
-                            <a href="ArticleDetails.aspx?ID=<%# Eval("ID") %>">
+                            <a href="AdCommentDetails.aspx?ID=<%# Eval("ID")%>">
                                 <asp:Image ID="Image3" runat="server" Height="40px" Width="40px" ImageUrl="~/image/update.png" />
                             </a></td>
                     </tr>

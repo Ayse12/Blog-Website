@@ -24,14 +24,14 @@ namespace BlogWebsite
                 //Confirmed Comments
                 SqlCommand cmd = new SqlCommand("Select * From Comments where Confirmation=1", sql.Connec());
                 SqlDataReader dr = cmd.ExecuteReader();
-                DataList1.DataSource = dr;
-                DataList1.DataBind();
+                DataList3.DataSource = dr;
+                DataList3.DataBind();
 
                 //Not Confirmed Comments
                 SqlCommand cmd1 = new SqlCommand("Select * From Comments where Confirmation=0", sql.Connec());
                 SqlDataReader dr1 = cmd1.ExecuteReader();
-                DataList3.DataSource = dr1;
-                DataList3.DataBind();
+                DataList1.DataSource = dr1;
+                DataList1.DataBind();
             }
             Panel2.Visible = false;
             Panel4.Visible = false;
