@@ -64,7 +64,7 @@
                 <td class="buttontd"><strong>
                     <asp:Button ID="btn1" runat="server" CssClass="buttons" Text="+" OnClick="btn1_Click" />
                 </strong></td>
-                <td style="text-align: center;">CONFIRMED COMMENTS</td>
+                <td style="text-align: center;">NOT CONFIRMED COMMENTS</td>
             </tr>
         </table>
     </asp:Panel>
@@ -87,6 +87,10 @@
             </ItemTemplate>
         </asp:DataList>
     </asp:Panel>
+    <asp:Panel ID="Panel5" runat="server" BorderStyle="None" CssClass="auto-style4">
+        <div style="color: #FFFFFF; background-color: #FFFFFF;">ddd
+        </div>
+    </asp:Panel>
     <asp:Panel ID="Panel3" runat="server" CssClass="Panel1-3">
         <table style="width: 100%;">
             <tr>
@@ -96,7 +100,7 @@
                 <td class="auto-style6"><strong>
                     <asp:Button ID="Button4" runat="server" CssClass="buttons" Text="+" OnClick="Button4_Click" />
                 </strong></td>
-                <td style="text-align: center;" class="auto-style7">ARTICLE LİST</td>
+                <td style="text-align: center;" class="auto-style7">CONFIRMED COMMENTS</td>
             </tr>
         </table>
     </asp:Panel>

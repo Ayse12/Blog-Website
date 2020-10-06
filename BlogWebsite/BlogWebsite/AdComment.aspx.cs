@@ -11,23 +11,30 @@ namespace BlogWebsite
     public partial class AdComment : System.Web.UI.Page
     {
         _1_SqlCon sql = new _1_SqlCon();
+        string process = "";
+        string id = "";
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            //Confirmed Comments
-            SqlCommand cmd = new SqlCommand("Select * From Comments where Confirmation=1", sql.Connec());
-            SqlDataReader dr = cmd.ExecuteReader();
-            DataList1.DataSource = dr;
-            DataList1.DataBind();
+            if (Page.IsPostBack == false)
+            {
+                id = Request.QueryString["ID"];
+                process = Request.QueryString["process"];
 
-            //Not Confirmed Comments
-            SqlCommand cmd1 = new SqlCommand("Select * From Comments where Confirmation=0", sql.Connec());
-            SqlDataReader dr1 = cmd1.ExecuteReader();
-            DataList3.DataSource = dr1;
-            DataList3.DataBind();
+                //Confirmed Comments
+                SqlCommand cmd = new SqlCommand("Select * From Comments where Confirmation=1", sql.Connec());
+                SqlDataReader dr = cmd.ExecuteReader();
+                DataList1.DataSource = dr;
+                DataList1.DataBind();
 
+                //Not Confirmed Comments
+                SqlCommand cmd1 = new SqlCommand("Select * From Comments where Confirmation=0", sql.Connec());
+                SqlDataReader dr1 = cmd1.ExecuteReader();
+                DataList3.DataSource = dr1;
+                DataList3.DataBind();
+            }
             Panel2.Visible = false;
-            Panel4.Visible = false; 
+            Panel4.Visible = false;
 
         }
 
