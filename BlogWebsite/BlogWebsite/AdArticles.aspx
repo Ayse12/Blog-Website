@@ -84,7 +84,7 @@
                                 <asp:Image ID="Image4" runat="server" Height="40px" Width="40px" ImageUrl="~/image/delete.png" />
                             </a></td>
                             <td style="text-align: right;">
-                                <a href="ArticleDetails.aspx?ID=<%# Eval("ID") %>">
+                                <a href="AdArticleDetails.aspx?ID=<%# Eval("ID") %>">
                                     <asp:Image ID="Image3" runat="server" Height="40px" Width="40px" ImageUrl="~/image/update.png" />
                                 </a></td>
                         </tr>

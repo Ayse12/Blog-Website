@@ -98,10 +98,10 @@
                         <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdChoiceOfAuthor.aspx"><strong>AUTHOR CHOISE</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>SUGGESTION TOPIC</strong></td>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdSuggestTopic.aspx"><strong>SUGGESTION TOPIC</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="MenuFont" style="border: thin dashed #0473ED"><strong>ABOUT ME</strong></td>
+                        <td class="MenuFont" style="border: thin dashed #0473ED"><a href="AdAbout.aspx"><strong>ABOUT ME</strong></a></td>
                     </tr>
                 </table>
             </div>
