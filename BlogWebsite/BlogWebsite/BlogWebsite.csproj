@@ -67,19 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdAbout.aspx" />
-    <Content Include="AdArticles.aspx" />
-    <Content Include="AdCategoryDetails.aspx" />
-    <Content Include="AdChoiceOfAuthor.aspx" />
-    <Content Include="AdComment.aspx" />
-    <Content Include="AdCommentDetails.aspx" />
-    <Content Include="AdMessage.aspx" />
-    <Content Include="AdMessageDetails.aspx" />
-    <Content Include="AdminControls.aspx" />
-    <Content Include="AdSuggestTopic.aspx" />
-    <Content Include="AdSuggestTopicDetails.aspx" />
-    <Content Include="AdArticleDetails.aspx" />
-    <Content Include="Categories.aspx" />
+    <Content Include="AdminPanel\AdAbout.aspx" />
+    <Content Include="AdminPanel\AdArticles.aspx" />
+    <Content Include="AdminPanel\AdCategoryDetails.aspx" />
+    <Content Include="AdminPanel\AdChoiceOfAuthor.aspx" />
+    <Content Include="AdminPanel\AdComment.aspx" />
+    <Content Include="AdminPanel\AdCommentDetails.aspx" />
+    <Content Include="AdminPanel\AdMessage.aspx" />
+    <Content Include="AdminPanel\AdMessageDetails.aspx" />
+    <Content Include="AdminPanel\AdminControls.aspx" />
+    <Content Include="AdminPanel\AdSuggestTopic.aspx" />
+    <Content Include="AdminPanel\AdSuggestTopicDetails.aspx" />
+    <Content Include="AdminPanel\AdArticleDetails.aspx" />
+    <Content Include="AdminPanel\Categories.aspx" />
     <Content Include="image\choice.png" />
     <Content Include="image\delete.png" />
     <Content Include="image\MessageDetails.png" />
@@ -101,101 +101,101 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_SqlCon.cs" />
-    <Compile Include="AdAbout.aspx.cs">
+    <Compile Include="AdminPanel\AdAbout.aspx.cs">
       <DependentUpon>AdAbout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdAbout.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdAbout.aspx.designer.cs">
       <DependentUpon>AdAbout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdArticles.aspx.cs">
+    <Compile Include="AdminPanel\AdArticles.aspx.cs">
       <DependentUpon>AdArticles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdArticles.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdArticles.aspx.designer.cs">
       <DependentUpon>AdArticles.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdCategoryDetails.aspx.cs">
+    <Compile Include="AdminPanel\AdCategoryDetails.aspx.cs">
       <DependentUpon>AdCategoryDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdCategoryDetails.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdCategoryDetails.aspx.designer.cs">
       <DependentUpon>AdCategoryDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdChoiceOfAuthor.aspx.cs">
+    <Compile Include="AdminPanel\AdChoiceOfAuthor.aspx.cs">
       <DependentUpon>AdChoiceOfAuthor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdChoiceOfAuthor.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdChoiceOfAuthor.aspx.designer.cs">
       <DependentUpon>AdChoiceOfAuthor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdComment.aspx.cs">
+    <Compile Include="AdminPanel\AdComment.aspx.cs">
       <DependentUpon>AdComment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdComment.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdComment.aspx.designer.cs">
       <DependentUpon>AdComment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdCommentDetails.aspx.cs">
+    <Compile Include="AdminPanel\AdCommentDetails.aspx.cs">
       <DependentUpon>AdCommentDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdCommentDetails.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdCommentDetails.aspx.designer.cs">
       <DependentUpon>AdCommentDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdMessage.aspx.cs">
+    <Compile Include="AdminPanel\AdMessage.aspx.cs">
       <DependentUpon>AdMessage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdMessage.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdMessage.aspx.designer.cs">
       <DependentUpon>AdMessage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdMessageDetails.aspx.cs">
+    <Compile Include="AdminPanel\AdMessageDetails.aspx.cs">
       <DependentUpon>AdMessageDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdMessageDetails.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdMessageDetails.aspx.designer.cs">
       <DependentUpon>AdMessageDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin.Master.cs">
+    <Compile Include="AdminPanel\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="Admin.Master.designer.cs">
+    <Compile Include="AdminPanel\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="AdminControls.aspx.cs">
+    <Compile Include="AdminPanel\AdminControls.aspx.cs">
       <DependentUpon>AdminControls.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminControls.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdminControls.aspx.designer.cs">
       <DependentUpon>AdminControls.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdSuggestTopic.aspx.cs">
+    <Compile Include="AdminPanel\AdSuggestTopic.aspx.cs">
       <DependentUpon>AdSuggestTopic.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdSuggestTopic.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdSuggestTopic.aspx.designer.cs">
       <DependentUpon>AdSuggestTopic.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdSuggestTopicDetails.aspx.cs">
+    <Compile Include="AdminPanel\AdSuggestTopicDetails.aspx.cs">
       <DependentUpon>AdSuggestTopicDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdSuggestTopicDetails.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdSuggestTopicDetails.aspx.designer.cs">
       <DependentUpon>AdSuggestTopicDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdArticleDetails.aspx.cs">
+    <Compile Include="AdminPanel\AdArticleDetails.aspx.cs">
       <DependentUpon>AdArticleDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdArticleDetails.aspx.designer.cs">
+    <Compile Include="AdminPanel\AdArticleDetails.aspx.designer.cs">
       <DependentUpon>AdArticleDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Categories.aspx.cs">
+    <Compile Include="AdminPanel\Categories.aspx.cs">
       <DependentUpon>Categories.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Categories.aspx.designer.cs">
+    <Compile Include="AdminPanel\Categories.aspx.designer.cs">
       <DependentUpon>Categories.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\AboutUs.aspx.cs">
@@ -257,7 +257,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin.Master" />
+    <Content Include="AdminPanel\Admin.Master" />
     <None Include="packages.config" />
     <Content Include="UserPanel\User.Master" />
     <None Include="Web.Debug.config">
@@ -267,9 +267,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AdminPanel\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
