@@ -9,6 +9,12 @@
             font-size: large;
             font-weight: bold;
         }
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style3 {
+        text-align: left;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -55,9 +61,19 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td><strong>
-                    <asp:Button ID="btnUpdate" runat="server" CssClass="btnEkle" Height="40px" Text="UPDATE" Width="100px" OnClick="btnUpdate_Click" />
+                <td class="auto-style3"><strong>
+                    <asp:Button ID="btnUpdate" runat="server" CssClass="btnEkle" Height="40px" Text="UPDATE" Width="199px" OnClick="btnUpdate_Click" />
                 </strong></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style1">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style3"><strong>
+                    <asp:Button ID="btnChoise" runat="server" CssClass="btnEkle" Height="40px" Text="CHOISE ARTICLE" Width="214px" OnClick="btnChoise_Click" />
+                    </strong></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>

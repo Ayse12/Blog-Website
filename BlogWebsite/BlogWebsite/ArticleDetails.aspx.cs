@@ -59,5 +59,19 @@ namespace BlogWebsite
             cmd.ExecuteNonQuery();
             sql.Connec().Close();
         }
+
+        protected void btnChoise_Click(object sender, EventArgs e)
+        {
+            //all articles be false.
+            SqlCommand cmd = new SqlCommand("Update Articles set Status=0", sql.Connec());
+            cmd.ExecuteNonQuery();
+            sql.Connec().Close();
+
+            //Choise of article( ChoiseOfAuthor Page)
+            SqlCommand cmd1 = new SqlCommand("Update Articles set Status=1 where ID=@id", sql.Connec());
+            cmd1.Parameters.AddWithValue("@id", id);
+            cmd1.ExecuteNonQuery();
+            sql.Connec().Close();
+        }
     }
 }

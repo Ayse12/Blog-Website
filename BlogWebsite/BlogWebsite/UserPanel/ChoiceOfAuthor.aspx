@@ -66,7 +66,7 @@
                     <td style="text-align: left">
                         <p style="text-indent: 25px;">
                             <span class="auto-style7"><strong>My Point = &gt; </strong></span><span class="auto-style8">10</span><span class="auto-style7">/ </span></strong>
-                            <asp:Label ID="Label6" runat="server" CssClass="content" Text='<%# Eval("Point") %>'></asp:Label>
+                            <asp:Label ID="Label6" runat="server" CssClass="content" Text='<%# Eval("Points") %>'></asp:Label>
                         </p>
                     </td>
                 </tr>
